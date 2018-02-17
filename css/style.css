@@ -117,8 +117,122 @@ input:focus{
     margin-top: 40px;
     line-height:29px;
 }
-/*
+
 .float-left img{
 	width: 537px;
 	height: 195px;
-}*/
+}
+
+.float-right table{
+    width: 400px;
+	font-family: Arial;
+}
+
+.float-right table td{
+	/*border: 1px solid #000;*/
+	padding-top: 4px;
+	width: 50%;
+}
+
+.float-right table input[type=text],
+.float-right table input[type=email],
+.float-right table input[type=password]{
+	width: 100%;
+	border: 1px solid #bdc7d8;
+	border-radius: 5px;
+	padding: 8px 10px;
+	font-size: 18px;
+	box-sizing: border-box;
+}
+
+.float-right table select{
+    font-size: 13px;
+    height: 30px;
+    padding: 5px 4px;
+	border-color: #bdc7d8;
+}
+
+.float-right table select:nth-of-type(2),
+.float-right table select:nth-of-type(3){
+	margin-left: -4px;
+}
+
+.float-right table h2{
+	font-size: 36px;
+	color: #333;
+	margin: 17px auto 0; 
+}
+
+.float-right table span{
+	color: #1d2129;
+    font-size: 19px;
+}
+
+.float-right table p{
+    color: #777;
+    font-size: 11px;
+    width: 316px;
+	line-height: 14px;
+}
+
+.float-right table div{
+	display: inline-block;
+	color: #1d2129;
+    font-size: 18px;
+    padding: 5px 10px 0 3px;
+}
+
+.float-right table input[type=submit]{
+    background: linear-gradient(#67ae55, #578843);
+    background-color: #69a74e;
+    box-shadow: inset 0 1px 1px #a4e388;
+	border: 1px solid #3b6e22;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    text-shadow: 0 1px 2px rgba(0,0,0,.5);
+	min-width: 194px;
+    padding: 7px 20px;
+    text-align: center;
+	font-size: 19px;
+	font-weight: bold;
+}
+
+.float-right table tr:nth-of-type(3) td{
+	padding-top: 15px;
+}
+
+.float-right table tr:nth-of-type(5) td{
+	padding-bottom:15px;
+}
+
+.float-right table tr:nth-of-type(7) a,
+.float-right table a{
+	display: inline-block;
+	font-size: 11px;
+    max-width: 150px;
+	color: #365899;
+    cursor: pointer;
+    text-decoration: none;
+	line-height: 14px;
+}
+
+.float-right table tr:nth-of-type(7) a:hover,
+.float-right table a:hover{
+	text-decoration: underline;
+}
+
+.float-right table tr:last-of-type p{
+	border-top: 1px solid #dddfe2;
+    color: #666;
+    font-size: 13px;
+    font-weight: bold;
+    margin-top: 10px;
+    padding-top: 15px;
+	width: auto;
+}
+
+.float-right table tr:last-of-type p a{
+	font-size: 13px;
+    font-weight: bold;
+}
