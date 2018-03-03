@@ -259,6 +259,16 @@ ul{
 	vertical-align:middle;
 }
 
+#footer li a{
+	cursor: pointer;
+	color: #365899;
+	text-decoration: none;
+}
+
+#footer li a:hover{
+	text-decoration: underline;
+}
+
 .more-lang{
 	display: block;
 	padding: 4px 9px;
@@ -293,6 +303,8 @@ ul{
 	margin-bottom: 2px;
 	position: relative;
 }
+
+
 
 .ad-choices{
 	display: inline-block;
